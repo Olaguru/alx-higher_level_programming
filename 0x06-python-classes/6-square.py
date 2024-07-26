@@ -51,6 +51,9 @@ class Square:
         """ print rep of square with # char... """
         if self.__size == 0:
             print()
-        for item in range(self.__size):
+            return
+        [print() for i in range(0, self.__position[1])]
+        for i in range(self.__size):
+            [print(" ", end="") for item in range(0, self.__position[0])]
             [print("#", end="") for j in range(self.__size)]
-            print()
+            print("")
