@@ -10,8 +10,8 @@ class Square():
         where: size equates the size of the square and given a default value 0
         position is a turple
         """
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
         """Private attribute"""
     @property
