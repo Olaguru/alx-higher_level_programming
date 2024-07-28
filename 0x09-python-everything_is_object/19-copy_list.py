@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def copy_list(listy):
-    return listy.copy()
+def copy_list(Listy):
+    return Listy.copy()
 
